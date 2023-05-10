@@ -20,8 +20,9 @@ body {
     height: 100vh;
 }
 
-.content-header {
+.content-right {
     background-color: aqua;
-    height: 100px;
+    height: 100vh;
 }
+
 
