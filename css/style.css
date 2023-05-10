@@ -25,4 +25,19 @@ body {
     height: 100vh;
 }
 
+.content-header {
+    background-color: blue;
+    height: 50px;
+}
+
+.content-1 {
+    background-color: green;
+    height: 300px;
+    border: 1px solid gray;
+}
+
+.content-2 {
+    background-color: yellow;
+    height: 100px ;
+}
 
