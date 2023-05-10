@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* UTILITIES */
+
+.content-nav {
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.content-side {
+    background-color: brown;
+    height: 100vh;
+}
+
+.content-header {
+    background-color: aqua;
+    height: 100px;
+}
+
