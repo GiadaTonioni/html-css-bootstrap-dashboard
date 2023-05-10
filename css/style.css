@@ -15,27 +15,19 @@ body {
     height: 50px;
 }
 
-.content-side {
-    background-color: brown;
+.background {
+    background-image: url(../img/sidebar-bg.png);
     height: 100vh;
+    background-color: rgb(22, 26, 41);
 }
 
-.content-right {
-    background-color: aqua;
-    height: 100vh;
+.background_grey {
+    background-color: rgb(233, 233, 233);
 }
 
 .content-header {
     background-color: blue;
     height: 50px;
-}
-
-.content-1 {
-
-}
-
-.content-2 {
-    b
 }
 
 /* CUSTOM */
@@ -59,4 +51,20 @@ img {
 .txt {
     font-size: 12px;
     font-weight: 500;
+}
+
+.txt-white {
+    color: white;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.txt-bold {
+    font-weight: 600;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.simbol_bottom {
+    margin-top: 750px;
 }
