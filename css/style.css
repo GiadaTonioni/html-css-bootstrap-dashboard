@@ -35,8 +35,7 @@ body {
 }
 
 .content-2 {
-    background-color: yellow;
-    height: 100px ;
+    b
 }
 
 /* CUSTOM */
@@ -50,6 +49,14 @@ body {
     font-weight: 600;
     color: rgb(84, 84, 84);
 }
-    
 
+img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
 
+.txt {
+    font-size: 12px;
+    font-weight: 500;
+}
