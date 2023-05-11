@@ -45,8 +45,7 @@ main {
 }
 
 .content-up {
-    background-color: blue;
-    height: 50px;
+    background-color: rgb(0, 132, 255);
 }
 
 /* CUSTOM */
@@ -89,6 +88,18 @@ img {
     list-style-type: none;
     margin-top: 20px;
     padding-left: 15px;
+}
+
+.txt-b {
+    color: white;
+    font-size: 14px;
+}
+
+.txt-white-small {
+    color: white;
+    background-color: rgb(4, 92, 193);
+    font-size: 11px;
+    font-weight: 400;
 }
 
 .txt-bold {
