@@ -32,7 +32,18 @@
                         <li class="d-none d-md-inline-block"><i class="fa-solid fa-list-ul"></i></li>
                         <li class="d-none d-md-inline-block"><i class="fa-sharp fa-solid fa-circle-question"></i></li>
                         <li class="d-none d-md-inline-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                        <li class="d-inline-block" id="orange"><i class="fa-solid fa-bell"></i></li>
+                        <li class="d-inline-block">
+                          <div class="dropdown">
+                            <button type="button" id="orange" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                          </div>
+                        </li>
                       </ul>
                     </div>
               
@@ -91,15 +102,88 @@
                                             </div>
                                             <div class="col">
                                                 <div class="canva">
+                                                  <span class="txt-b">Nuovo Studente</span>
                                                   <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
 
                                                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                                     <div class="offcanvas-header">
-                                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                                     </div>
                                                     <div class="offcanvas-body">
-                                                      ...
+                                                      <form class="row g-3">
+                                                        <div class="col-md-6">
+                                                          <label for="nome" class="form-label">Nome</label>
+                                                          <input type="text" class="form-control" id="nome">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="cognome" class="form-label">Cognome</label>
+                                                          <input type="text" class="form-control" id="cognome">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="email" class="form-label">Email</label>
+                                                          <div class="input-group">
+                                                            <div class="input-group-text">@</div>
+                                                            <input type="email" class="form-control" id="autoSizingInputGroup" placeholder="">
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="inputPassword4" class="form-label">Password</label>
+                                                          <input type="password" class="form-control" id="inputPassword4">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="email" class="form-label">Email</label>
+                                                          <div class="input-group">
+                                                            <div class="input-group-text">@</div>
+                                                            <input type="email" class="form-control" id="autoSizingInputGroup" placeholder="">
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="inputPassword4" class="form-label">Password</label>
+                                                          <input type="password" class="form-control" id="inputPassword4">
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                          <label for="indirizzo" class="form-label">Indirizzo</label>
+                                                          <input type="text" class="form-control" id="indirizzo">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="inputCity" class="form-label">Città</label>
+                                                          <input type="text" class="form-control" id="inputCity">
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                          <label for="inputState" class="form-label">Stato</label>
+                                                          <select id="inputState" class="form-select">
+                                                            <option selected>Italia</option>
+                                                            <option>Spagna</option>
+                                                            <option>Francia</option>
+                                                            <option>Islanda</option>
+                                                            <option>Inghilterra</option>
+                                                          </select>
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                          <label for="inputZip" class="form-label">CAP</label>
+                                                          <input type="text" class="form-control" id="inputZip">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                          <label for="formFile" class="form-label">Foto</label>
+                                                          <input class="form-control" type="file" id="formFile">
+                                                        </div>
+
+                                                        
+                                                        <div class="col-12">
+                                                          <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                            <label class="form-check-label" for="gridCheck">
+                                                              Seleziona per proseguire
+                                                            </label>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                                          <button type="submit" class="btn btn-warning">Svuota</button>
+
+                                                        </div>
+                                                      </form>
                                                     </div>
                                                   </div>
                                                 </div>
