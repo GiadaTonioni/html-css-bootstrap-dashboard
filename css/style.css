@@ -10,22 +10,41 @@ body {
 
 /* UTILITIES */
 
-.content-nav {
-    background-color: aquamarine;
-    height: 50px;
+header {
+    background-color: yellow;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.background {
+#sidebar {
+    height: calc(100vh - 75px);
+    background-color: blue;
+    width: 120px;
     background-image: url(../img/sidebar-bg.png);
-    height: 100vh;
     background-color: rgb(22, 26, 41);
+    position: fixed;
+    top: 75px;
+    left: 0;
 }
 
-.background_grey {
+main {
+    margin-top: 75px;
     background-color: rgb(233, 233, 233);
+    display: flex;
+
 }
 
-.content-header {
+#content {
+    width: calc(100% - 120px);
+    height: calc(100vh - 75px);
+    overflow-y: auto;
+    float: right;
+}
+
+.content-up {
     background-color: blue;
     height: 50px;
 }
@@ -56,7 +75,7 @@ img {
 .txt-white {
     color: white;
     list-style-type: none;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .txt-bold {
@@ -66,7 +85,7 @@ img {
 }
 
 .simbol_bottom {
-    margin-top: 750px;
+    margin-top: 600px;
 }
 
 .content-2 {
@@ -75,5 +94,9 @@ img {
 
 .content-1 {
     margin-top: 20px;
+}
+
+.content-1 input {
+    margin-right: 8px;
 }
 
