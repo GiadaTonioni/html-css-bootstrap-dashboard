@@ -22,7 +22,7 @@ header {
 #sidebar {
     height: calc(100vh - 75px);
     background-color: blue;
-    width: 120px;
+    width: 50px;
     background-image: url(../img/sidebar-bg.png);
     background-color: rgb(22, 26, 41);
     position: fixed;
@@ -38,7 +38,7 @@ main {
 }
 
 #content {
-    width: calc(100% - 120px);
+    width: calc(100% - 50px);
     height: calc(100vh - 75px);
     overflow-y: auto;
     float: right;
@@ -55,6 +55,12 @@ main {
     font-weight: 600;
 }
 
+.title-white {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
 .sub_title {
     font-size: 12px;
     font-weight: 600;
@@ -65,6 +71,12 @@ img {
     width: 20px;
     height: 20px;
     display: inline-block;
+    margin-right: 8px;
+}
+
+.color_custom {
+    background-color: rgb(247, 198, 62);
+    color: white;
 }
 
 .txt {
@@ -76,6 +88,7 @@ img {
     color: white;
     list-style-type: none;
     margin-top: 20px;
+    padding-left: 15px;
 }
 
 .txt-bold {
@@ -115,6 +128,12 @@ img {
     margin-top: 8px;
 }
 
+.logo-small {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+
 .content-nav {
     display: flex;
     justify-content: space-between;
@@ -125,19 +144,60 @@ img {
 
 header li {
     list-style-type: none;
-    display: inline;
+    margin-right: 15px;
+}
+
+.simb_color {
+    color: grey;
+    margin-right: 15px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+#orange {
+    color: orange;
 }
 
 .search_style {
     background-color: lightgray;
     width: 50vw;
     height: 35px;
+    font-size: 14px;
+}
+
+.simbols {
+    padding: 5px;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
 }
 
 /* MEDIAQUERY */
 @media screen and (min-width: 766px) {
     .search_style {
         width: 70vw;
+    }
+   
+}
+
+@media screen and (min-width: 992px) {
+
+    #sidebar {
+        height: calc(100vh - 75px);
+        background-color: blue;
+        width: 120px;
+        background-image: url(../img/sidebar-bg.png);
+        background-color: rgb(22, 26, 41);
+        position: fixed;
+        top: 75px;
+        left: 0;
+    }
+    #content {
+        width: calc(100% - 120px);
+        height: calc(100vh - 75px);
+        overflow-y: auto;
+        float: right;
     }
 }
     

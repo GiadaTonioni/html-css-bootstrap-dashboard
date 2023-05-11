@@ -21,17 +21,18 @@
               <div class="col">
                   <div class="content-nav">
                     <div>
-                      <img src="./img/logo.svg" class="logo" alt="">
+                      <img src="./img/mobile-logo.png" class="logo-small d-block d-md-none" alt="">
+                      <img src="./img/logo.svg" class="logo d-none d-md-block" alt="">
                     </div>
                     <form class="d-flex" role="search">
                       <input class="form-control me-2 search_style" type="search" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Search">
                     </form>
                     <div>
-                      <ul >
-                        <li><i class="fa-solid fa-list-ul"></i></li>
-                        <li><i class="fa-sharp fa-solid fa-circle-question"></i></li>
-                        <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                        <li><i class="fa-solid fa-bell"></i></li>
+                      <ul class="simb_color">
+                        <li class="d-none d-md-inline-block"><i class="fa-solid fa-list-ul"></i></li>
+                        <li class="d-none d-md-inline-block"><i class="fa-sharp fa-solid fa-circle-question"></i></li>
+                        <li class="d-none d-md-inline-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        <li class="d-inline-block" id="orange"><i class="fa-solid fa-bell"></i></li>
                       </ul>
                     </div>
               
@@ -70,7 +71,9 @@
                                     <div class="container-fluid">
                                         <div class="row justify-content-between">
                                             <div class="col">
-                                                blabla
+                                              <div class="title-white">
+                                                Boolean
+                                              </div>
                                             </div>
                                             <div class="col">
                                                 blabla
@@ -106,106 +109,113 @@
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 75</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 75</div>
                                                     <div class="col-2 d-none d-md-block">15 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-success">Done</span>
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 76</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 76</div>
                                                     <div class="col-2 d-none d-md-block">15 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-success">Done</span>
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 77</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 77</div>
                                                     <div class="col-2 d-none d-md-block">16 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
-                                                        <span class="badge text-bg-warning">process</span>
+                                                        <span class="badge color_custom">process</span>
 
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 78</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 78</div>
                                                     <div class="col-2 d-none d-md-block">16 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-success">Done</span>
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 79</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 79</div>
                                                     <div class="col-2 d-none d-md-block">16 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-danger">failed</span>
 
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 80</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 80</div>
                                                     <div class="col-2 d-none d-md-block">16 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-success">Done</span>
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 81</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 81</div>
                                                     <div class="col-2 d-none d-md-block">16 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-danger">failed</span>
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
                                           <li class="list-group-item">
                                             <div class="container">
                                                 <div class="row justify-content-start txt">
-                                                    <div class="col-6 col-md-4"><img src="/img/class-avatar.jpg" alt="">Classe 82</div>
+                                                    <div class="col-6 col-md-4"><img src="./img/class-avatar.jpg" alt="">Classe 82</div>
                                                     <div class="col-2 d-none d-md-block">16 Feb 2021</div>
                                                     <div class="col-2 d-none d-md-block">20%</div>
                                                     <div class="col-3 col-md-2">
                                                         <span class="badge text-bg-success">Done</span>
                                                     </div>
-                                                    <div class="col-3 col-md-2">testo</div>
+                                                    <div class="col-3 col-md-2"><span class="simbols"><i class="fa-solid fa-pencil"></i></span><span class="simbols"><i class="fa-solid fa-trash"></i></span></div>
+
                                                 </div>
                                             </div>
                                           </li>
